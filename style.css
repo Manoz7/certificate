@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    color: black;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 1212px;
+    height: 800px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.certifate-container {
+    position: absolute;
+    top: 130px;
+
+}
+
+
+
+.cert h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.cert h2{
+    font-size: 1.8rem;
+
+}
+
+.marquee {
+    font-size: 30px;
+}
+
+.assignment p{
+    font-size: 1.8rem;
+}
+
+.person h1 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 5.5rem;
+
+}
+.reason{
+    width: 800px;
+}
+
+.reason p{
+    font-size: 1.6rem;
+}
+
+.signature {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 30px;
+    margin-top: 50px;
+    /* background-color: red; */
+
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.underline hr{
+    width: 275px;
+    height: 3px;
+    background: black;
+    border: none;
+}
+
+.imagec {
+    width: 150px;
+    height: 150px;
+}
+
+.imagec img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.name h4 {
+    font-weight: bold;
+}
+
+.post h5 {
+    font-style: italic;
+}
